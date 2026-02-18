@@ -1,177 +1,226 @@
-Springboard Internship Program
-Batch B13 – AirFly Insights
-Data Visualization and Analysis of Airline Operations
-📌 Program Overview
+# Springboard Internship Program  
+## Batch B13 – AirFly Insights  
+### Data Visualization and Analysis of Airline Operations  
+
+---
+
+# 📌 Program Overview
 
 This repository is created for the Springboard Internship Program (8 Weeks).
 
-The objective of this internship is to provide hands-on experience in:
+This is a project-driven internship designed to provide hands-on experience in real-world data analysis and visualization.  
 
-Data Cleaning and Preprocessing
+⚠ This is NOT a lecture-based training program.  
+Sessions are focused on implementation, milestone execution, evaluation, and structured project development.
 
-Exploratory Data Analysis
+---
 
-Delay and Cancellation Analysis
+# 🎯 Project Title
 
-Route and Airport-Level Insights
+## AirFly Insights: Data Visualization and Analysis of Airline Operations
 
-Visual Reporting and Presentation
+The objective of this project is to analyze large-scale airline flight datasets to uncover:
 
-This is a project-driven internship. It is not a lecture-based training program.
+- Operational trends  
+- Delay patterns  
+- Cancellation reasons  
+- Seasonal impacts  
+- Route and airport-level performance insights  
 
-📊 Project Title
+The final outcome will be a structured visual report and presentation.
 
-AirFly Insights: Data Visualization and Analysis of Airline Operations
+---
 
-The project focuses on analyzing large-scale airline datasets to uncover:
+# 🗓 Internship Structure
 
-Delay patterns
+- **Duration:** 8 Weeks  
+- **Milestones:** 4 (One every 2 weeks)  
+- **Mode:** Virtual  
+- **Evaluation:** Continuous + Final Demonstration  
 
-Cancellation trends
+Each milestone builds upon the previous one. Consistency is mandatory.
 
-Seasonal impacts
+---
 
-Route-level performance
+# 🏁 Milestone Breakdown
 
-Airline operational efficiency
+## ✅ Milestone 1 – Data Foundation (Weeks 1–2)
 
-🗓 Internship Structure
+- Dataset loading and exploration  
+- Schema understanding  
+- Handling null values  
+- Feature engineering (Month, Day, Hour, Route)  
+- Data preprocessing and optimization  
 
-Duration: 8 Weeks
-Milestones: 4 (One every 2 weeks)
-Mode: Virtual
-Final Evaluation: Week 8 Presentation + Q&A
+**Deliverables:**
+- Cleaned dataset  
+- Feature dictionary  
+- Summary of preprocessing steps  
 
-🏁 Milestone Breakdown
-Milestone 1 – Data Foundation
+---
 
-Dataset loading
+## ✅ Milestone 2 – Visual Exploration (Weeks 3–4)
 
-Data cleaning
+- Airline-level delay comparison  
+- Time-based flight distribution  
+- Delay cause analysis  
+- Minimum 8 visualizations  
 
-Feature engineering
+**Deliverables:**
+- Visual plots  
+- Interpretation of findings  
+- Insights on delay trends  
 
-Preprocessed dataset export
+---
 
-Milestone 2 – Visual Exploration
+## ✅ Milestone 3 – Route & Seasonal Insights (Weeks 5–6)
 
-Airline-level delay analysis
+- Top origin-destination routes  
+- Airport-level delay heatmaps  
+- Cancellation trend analysis  
+- Seasonal and monthly patterns  
 
-Time-based patterns
+**Deliverables:**
+- Route-level insights  
+- Seasonal visual summaries  
+- Cancellation analysis  
 
-Minimum 8 visualizations
+---
 
-Interpretation of findings
+## ✅ Milestone 4 – Final Report & Presentation (Weeks 7–8)
 
-Milestone 3 – Route & Seasonal Insights
+- Structured visual storytelling  
+- Final report (PDF / Notebook / Slides)  
+- GitHub documentation  
+- Final demo presentation + Q&A  
 
-Top origin-destination routes
+**Deliverables:**
+- Final report/dashboard  
+- Slide deck  
+- Updated GitHub repository  
 
-Airport delay heatmaps
+---
 
-Cancellation trend analysis
-
-Seasonal patterns
-
-Milestone 4 – Final Report & Presentation
-
-Structured visual storytelling
-
-Final report (PDF/Notebook/Slides)
-
-GitHub documentation
-
-Final demo participation
-
-📁 GitHub Guidelines for Interns
+# 📂 GitHub Guidelines for Interns
 
 Each intern must:
 
-Create and maintain an individual branch
+- Create an individual branch  
+- Use branch naming format:
 
-Push weekly updates
+```
+yourname_branch
+```
 
-Maintain clean folder structure
+Example:
+```
+radha_priya_branch
+```
 
-Include documentation in README
-
-Commit code regularly
+- Do NOT push directly to `main`  
+- Commit updates weekly  
+- Maintain clean folder structure  
+- Add proper README documentation in branch  
+- Ensure code is well-organized and readable  
 
 Repositories will be reviewed during milestone evaluations.
 
-🎓 Certificate Eligibility Criteria
+---
 
-To receive the Completion Certificate, interns must meet ALL of the following:
+# 📊 Evaluation Criteria
 
-Attendance ≥ 75%
+## Milestone 1 – Data Readiness
+- Clean structure  
+- Proper feature creation  
+- Correct data types  
 
-Performance Evaluation Average ≥ 75%
+## Milestone 2 – Visualization Quality
+- Clarity and relevance  
+- Diversity of plots  
+- Interpretability  
 
-Active GitHub Branch Updates
+## Milestone 3 – Insight Depth
+- Route-level insights  
+- Cancellation and seasonal analysis  
+- Data-backed observations  
 
-Participation in Final Project Demonstration
+## Milestone 4 – Presentation & Reporting
+- Structured storyline  
+- Visual clarity  
+- Clear explanation during demo  
 
-Failure to meet any requirement will result in ineligibility.
+---
 
-⚖ Code of Conduct
+# 🎓 Certificate Eligibility Criteria
 
-Use official communication channels only
+To receive the **Completion Certificate**, interns must meet ALL of the following:
 
-No personal contact sharing
+- ✅ Attendance ≥ 75%  
+- ✅ Performance Evaluation Average ≥ 75%  
+- ✅ Active GitHub Branch Updates  
+- ✅ Participation in Final Project Demonstration  
 
-Maintain professionalism
+Failure to meet any requirement will result in ineligibility for certification.
 
-Follow structured milestone submissions
+---
 
-🛠 Tech Stack
+# 📌 Attendance Policy
 
-Data Handling: pandas, numpy
-Visualization: matplotlib, seaborn, plotly, folium
-Optional Dashboard: Streamlit / Power BI
-Documentation: Jupyter Notebook, PDF, GitHub
+- Attendance will be tracked daily  
+- Prior intimation → Marked as Leave  
+- No intimation → Marked as Absent  
+- Minimum required attendance: 75%  
 
-📌 Evaluation Criteria
+---
 
-Milestone 1: Data Readiness
-Milestone 2: Visualization Quality
-Milestone 3: Insight Depth
-Milestone 4: Presentation & Reporting
+# ⚖ Code of Conduct
 
-Maintained by:
-Radha Priya
-Mentor – Springboard Internship Program
+- Use official communication channels only  
+- Do not share personal contact information  
+- Do not connect on social media for internship purposes  
+- Maintain professional behavior  
+- Follow structured milestone timelines  
 
-✅ Step 6: Branch Rules (Important)
+---
 
-Tell interns:
+# 🛠 Tech Stack
 
-Branch name format:
+**Data Handling:**  
+- pandas  
+- numpy  
 
-intern-name_branch
+**Visualization:**  
+- matplotlib  
+- seaborn  
+- plotly  
+- folium  
 
+**Optional Dashboard:**  
+- Streamlit  
+- Power BI  
 
-Example:
+**Documentation:**  
+- Jupyter Notebook  
+- PDF  
+- GitHub  
 
-radha_priya_branch
+---
 
+# 📎 Repository Purpose
 
-No commits directly to main
+This repository is maintained for:
 
-All work must be in their branch
+- Project implementation tracking  
+- Milestone evaluation  
+- Code review  
+- Final submission validation  
+- Certification eligibility verification  
 
-✅ Step 7: Optional (Professional Touch)
+---
 
-Add a pinned issue in GitHub titled:
+# 👩‍🏫 Maintained By
 
-📌 Internship Instructions – Read Before Starting
+Priya  
+Mentor – Springboard Internship Program  
 
-
-Inside it, summarize:
-
-Branch rules
-
-Attendance requirement
-
-Milestone schedule
-
-Certificate criteria
+---

@@ -29,6 +29,8 @@ The objective of this project is to analyze large-scale airline flight datasets 
 
 ------------------------------------------------------------------------
 
+------------------------------------------------------------------------
+
 #  Project Workflow
 
 Milestone 1 → Data Understanding\
@@ -39,14 +41,19 @@ Milestone 3 → Operational Insights
 
 #  Repository Structure
 
-Robinson/ │ ├── Milestone - 01.ipynb ├── Milestone - 02.ipynb ├──
-Milestone - 03.ipynb 
+Robinson/ │ ├── README.md ├── Milestone - 01.ipynb ├── Milestone -
+02.ipynb ├── Milestone - 03.ipynb │ └── images/ missing_values.png
+airline_market_share.png busiest_airports.png monthly_trends.png
+flights_by_day.png departure_hour.png top_routes.png distance_groups.png
+airport_traffic.png airport_delay.png cancellation_rate.png
+cancellation_reasons.png cancellation_reasons_types.png
 
 ------------------------------------------------------------------------
 
 #  Dataset
 
-The project uses a flight operations dataset containing:
+The project analyzes a **flight operations dataset** containing airline
+operational information.
 
   Column      Description
   ----------- -------------------------------
@@ -58,40 +65,50 @@ The project uses a flight operations dataset containing:
   ARR_DELAY   Arrival delay
   DISTANCE    Flight distance
   CANCELLED   Flight cancellation indicator
-  DIVERTED    Diversion indicator
+  DIVERTED    Flight diversion indicator
 
-Approximate dataset size: \~3 million flight records
+Dataset size: **\~3 million flight records**
 
 ------------------------------------------------------------------------
 
 #  Technologies Used
 
--   Python
--   Jupyter Notebook
--   Pandas
--   NumPy
--   Matplotlib
--   Seaborn
--   Missingno
+The project was developed using:
+
+-   Python\
+-   Jupyter Notebook\
+-   Pandas\
+-   NumPy\
+-   Matplotlib\
+-   Seaborn\
+-   Missingno\
 -   Git
 
 ------------------------------------------------------------------------
 
 #  Milestone 01 --- Data Understanding & Cleaning
 
-Key Steps: - Dataset loading - Data inspection (shape, columns, info) -
-Data type corrections - Date conversion - Binary column fixes - Missing
-value visualization
+This stage focuses on understanding the dataset and preparing it for
+analysis.
 
-Example visualization:
+Key tasks:
+
+-   Loading the dataset
+-   Inspecting dataset structure
+-   Data type corrections
+-   Date conversions
+-   Binary column corrections
+-   Missing value analysis
+
+### Missing Value Visualization
 
 ![Missing Values](images/missing_values.png)
 
 ------------------------------------------------------------------------
 
-# Milestone 02 --- Exploratory Data Analysis
+#  Milestone 02 --- Exploratory Data Analysis
 
-Key Analyses:
+This stage focuses on discovering patterns in airline operations.
 
 ### Airline Market Share
 
@@ -117,6 +134,8 @@ Key Analyses:
 
 # 🚀 Milestone 03 --- Operational Insights
 
+Advanced analysis of airline operations.
+
 ### Top Flight Routes
 
 ![Top Routes](images/top_routes.png)
@@ -125,7 +144,7 @@ Key Analyses:
 
 ![Distance Groups](images/distance_groups.png)
 
-### Airport Traffic
+### Airport Traffic Analysis
 
 ![Airport Traffic](images/airport_traffic.png)
 
@@ -133,28 +152,34 @@ Key Analyses:
 
 ![Airport Delay](images/airport_delay.png)
 
-### Cancellation Rate
+### Flight Cancellation Rate
 
 ![Cancellation Rate](images/cancellation_rate.png)
 
 ### Cancellation Reasons
 
 ![Cancellation Reasons](images/cancellation_reasons.png)
-![Cancellation Reasons](images/cancellation_reasons_types.png)
+
+### Cancellation Type Distribution
+
+![Cancellation Types](images/cancellation_reasons_types.png)
 
 ------------------------------------------------------------------------
 
 #  Key Insights
 
--   Flight traffic varies significantly by season and day of week
--   Certain airports handle significantly higher traffic volume
--   Delay patterns differ across airports
--   Weather and carrier issues are major causes of cancellations
+Key observations from the analysis:
+
+-   Flight traffic varies significantly across **months and weekdays**
+-   Certain airports handle **much higher traffic volumes**
+-   Delay patterns vary between airports
+-   **Weather and airline carrier issues** are major causes of
+    cancellations
 -   Certain routes dominate airline traffic networks
 
 ------------------------------------------------------------------------
 
-#  How to Run
+#  How to Run the Project
 
 Clone the repository:
 
@@ -165,7 +190,7 @@ Navigate to the project folder:
 
 cd B13-AirFly-Insights-Internship
 
-Open the notebooks:
+Open notebooks:
 
 jupyter notebook
 
@@ -173,12 +198,15 @@ jupyter notebook
 
 #  Skills Demonstrated
 
--   Exploratory Data Analysis
+This project demonstrates:
+
+-   Exploratory Data Analysis (EDA)
 -   Data Cleaning
 -   Feature Engineering
--   Aviation Operational Analytics
+-   Aviation Data Analytics
 -   Data Visualization
 -   Git Version Control
+-   Structured Data Science Workflow
 
 ------------------------------------------------------------------------
 
@@ -192,5 +220,5 @@ AirFly Insights Internship
 
 #  Acknowledgement
 
-Thanks to the AirFly Insights Internship mentors for their guidance and
-support.
+Special thanks to the **AirFly Insights Internship mentors** for their
+guidance and support.

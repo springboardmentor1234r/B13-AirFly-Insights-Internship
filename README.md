@@ -41,12 +41,12 @@ Milestone 3 → Operational Insights
 
 #  Repository Structure
 
-Robinson/ │ ├── README.md ├── Milestone - 01.ipynb ├── Milestone -
-02.ipynb ├── Milestone - 03.ipynb │ └── images/ missing_values.png
-airline_market_share.png busiest_airports.png monthly_trends.png
-flights_by_day.png departure_hour.png top_routes.png distance_groups.png
-airport_traffic.png airport_delay.png cancellation_rate.png
-cancellation_reasons.png cancellation_reasons_types.png
+Robinson/\│ ├── README.md\├── Milestone - 01.ipynb\├── Milestone -
+02.ipynb\├── Milestone - 03.ipynb │\ └── images/ missing_values.png\
+airline_market_share.png\ busiest_airports.png monthly_trends.png\
+flights_by_day.png departure_hour.png\ top_routes.png\ distance_groups.png\
+airport_traffic.png\ airport_delay.png\ cancellation_rate.png\
+cancellation_reasons.png\ cancellation_reasons_types.png
 
 ------------------------------------------------------------------------
 
@@ -132,7 +132,7 @@ This stage focuses on discovering patterns in airline operations.
 
 ------------------------------------------------------------------------
 
-# 🚀 Milestone 03 --- Operational Insights
+# Milestone 03 --- Operational Insights
 
 Advanced analysis of airline operations.
 
@@ -214,7 +214,7 @@ This project demonstrates:
 
 Robinson\
 Data Analytics Intern\
-AirFly Insights Internship
+Infosys Springboard Internship
 
 ------------------------------------------------------------------------
 

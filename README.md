@@ -4,7 +4,7 @@
 
 ---
 
-# 📌 Program Overview
+#  Program Overview
 
 This repository is created for the Springboard Internship Program (8 Weeks).
 
@@ -15,7 +15,7 @@ Sessions are focused on implementation, milestone execution, evaluation, and str
 
 ---
 
-# 🎯 Project Title
+#  Project Title
 
 ## AirFly Insights: Data Visualization and Analysis of Airline Operations
 
@@ -27,200 +27,170 @@ The objective of this project is to analyze large-scale airline flight datasets 
 - Seasonal impacts  
 - Route and airport-level performance insights  
 
-The final outcome will be a structured visual report and presentation.
+------------------------------------------------------------------------
 
----
+#  Project Workflow
 
-# 🗓 Internship Structure
+Milestone 1 → Data Understanding\
+Milestone 2 → Exploratory Data Analysis\
+Milestone 3 → Operational Insights
 
-- **Duration:** 8 Weeks  
-- **Milestones:** 4 (One every 2 weeks)  
-- **Mode:** Virtual  
-- **Evaluation:** Continuous + Final Demonstration  
+------------------------------------------------------------------------
 
-Each milestone builds upon the previous one. Consistency is mandatory.
+#  Repository Structure
 
----
+Robinson/ │ ├── Milestone - 01.ipynb ├── Milestone - 02.ipynb ├──
+Milestone - 03.ipynb 
 
-# 🏁 Milestone Breakdown
+------------------------------------------------------------------------
 
-## ✅ Milestone 1 – Data Foundation (Weeks 1–2)
+#  Dataset
 
-- Dataset loading and exploration  
-- Schema understanding  
-- Handling null values  
-- Feature engineering (Month, Day, Hour, Route)  
-- Data preprocessing and optimization  
+The project uses a flight operations dataset containing:
 
-**Deliverables:**
-- Cleaned dataset  
-- Feature dictionary  
-- Summary of preprocessing steps  
+  Column      Description
+  ----------- -------------------------------
+  FL_DATE     Flight date
+  AIRLINE     Airline name
+  ORIGIN      Origin airport
+  DEST        Destination airport
+  DEP_DELAY   Departure delay
+  ARR_DELAY   Arrival delay
+  DISTANCE    Flight distance
+  CANCELLED   Flight cancellation indicator
+  DIVERTED    Diversion indicator
 
----
+Approximate dataset size: \~3 million flight records
 
-## ✅ Milestone 2 – Visual Exploration (Weeks 3–4)
+------------------------------------------------------------------------
 
-- Airline-level delay comparison  
-- Time-based flight distribution  
-- Delay cause analysis  
-- Minimum 8 visualizations  
+#  Technologies Used
 
-**Deliverables:**
-- Visual plots  
-- Interpretation of findings  
-- Insights on delay trends  
+-   Python
+-   Jupyter Notebook
+-   Pandas
+-   NumPy
+-   Matplotlib
+-   Seaborn
+-   Missingno
+-   Git
 
----
+------------------------------------------------------------------------
 
-## ✅ Milestone 3 – Route & Seasonal Insights (Weeks 5–6)
+#  Milestone 01 --- Data Understanding & Cleaning
 
-- Top origin-destination routes  
-- Airport-level delay heatmaps  
-- Cancellation trend analysis  
-- Seasonal and monthly patterns  
+Key Steps: - Dataset loading - Data inspection (shape, columns, info) -
+Data type corrections - Date conversion - Binary column fixes - Missing
+value visualization
 
-**Deliverables:**
-- Route-level insights  
-- Seasonal visual summaries  
-- Cancellation analysis  
+Example visualization:
 
----
+![Missing Values](images/missing_values.png)
 
-## ✅ Milestone 4 – Final Report & Presentation (Weeks 7–8)
+------------------------------------------------------------------------
 
-- Structured visual storytelling  
-- Final report (PDF / Notebook / Slides)  
-- GitHub documentation  
-- Final demo presentation + Q&A  
+# Milestone 02 --- Exploratory Data Analysis
 
-**Deliverables:**
-- Final report/dashboard  
-- Slide deck  
-- Updated GitHub repository  
+Key Analyses:
 
----
+### Airline Market Share
 
-# 📂 GitHub Guidelines for Interns
+![Airline Market Share](images/airline_market_share.png)
 
-Each intern must:
+### Busiest Origin Airports
 
-- Create an individual branch  
-- Use branch naming format:
+![Top Airports](images/busiest_airports.png)
 
-```
-yourname_branch
-```
+### Monthly Flight Trends
 
-Example:
-```
-radha_priya_branch
-```
+![Monthly Trends](images/monthly_trends.png)
 
-- Do NOT push directly to `main`  
-- Commit updates weekly  
-- Maintain clean folder structure  
-- Add proper README documentation in branch  
-- Ensure code is well-organized and readable  
+### Weekly Flight Distribution
 
-Repositories will be reviewed during milestone evaluations.
+![Flights by Day](images/flights_by_day.png)
 
----
+### Departure Hour Traffic
 
-# 📊 Evaluation Criteria
+![Departure Hour](images/departure_hour.png)
 
-## Milestone 1 – Data Readiness
-- Clean structure  
-- Proper feature creation  
-- Correct data types  
+------------------------------------------------------------------------
 
-## Milestone 2 – Visualization Quality
-- Clarity and relevance  
-- Diversity of plots  
-- Interpretability  
+# 🚀 Milestone 03 --- Operational Insights
 
-## Milestone 3 – Insight Depth
-- Route-level insights  
-- Cancellation and seasonal analysis  
-- Data-backed observations  
+### Top Flight Routes
 
-## Milestone 4 – Presentation & Reporting
-- Structured storyline  
-- Visual clarity  
-- Clear explanation during demo  
+![Top Routes](images/top_routes.png)
 
----
+### Distance Group Analysis
 
-# 🎓 Certificate Eligibility Criteria
+![Distance Groups](images/distance_groups.png)
 
-To receive the **Completion Certificate**, interns must meet ALL of the following:
+### Airport Traffic
 
-- ✅ Attendance ≥ 75%  
-- ✅ Performance Evaluation Average ≥ 75%  
-- ✅ Active GitHub Branch Updates  
-- ✅ Participation in Final Project Demonstration  
+![Airport Traffic](images/airport_traffic.png)
 
-Failure to meet any requirement will result in ineligibility for certification.
+### Airport Delay Analysis
 
----
+![Airport Delay](images/airport_delay.png)
 
-# 📌 Attendance Policy
+### Cancellation Rate
 
-- Attendance will be tracked daily  
-- Prior intimation → Marked as Leave  
-- No intimation → Marked as Absent  
-- Minimum required attendance: 75%  
+![Cancellation Rate](images/cancellation_rate.png)
 
----
+### Cancellation Reasons
 
-# ⚖ Code of Conduct
+![Cancellation Reasons](images/cancellation_reasons.png)
+![Cancellation Reasons](images/cancellation_reasons_types.png)
 
-- Use official communication channels only  
-- Do not share personal contact information  
-- Do not connect on social media for internship purposes  
-- Maintain professional behavior  
-- Follow structured milestone timelines  
+------------------------------------------------------------------------
 
----
+#  Key Insights
 
-# 🛠 Tech Stack
+-   Flight traffic varies significantly by season and day of week
+-   Certain airports handle significantly higher traffic volume
+-   Delay patterns differ across airports
+-   Weather and carrier issues are major causes of cancellations
+-   Certain routes dominate airline traffic networks
 
-**Data Handling:**  
-- pandas  
-- numpy  
+------------------------------------------------------------------------
 
-**Visualization:**  
-- matplotlib  
-- seaborn  
-- plotly  
-- folium  
+#  How to Run
 
-**Optional Dashboard:**  
-- Streamlit  
-- Power BI  
+Clone the repository:
 
-**Documentation:**  
-- Jupyter Notebook  
-- PDF  
-- GitHub  
+git clone
+https://github.com/springboardmentor1234r/B13-AirFly-Insights-Internship.git
 
----
+Navigate to the project folder:
 
-# 📎 Repository Purpose
+cd B13-AirFly-Insights-Internship
 
-This repository is maintained for:
+Open the notebooks:
 
-- Project implementation tracking  
-- Milestone evaluation  
-- Code review  
-- Final submission validation  
-- Certification eligibility verification  
+jupyter notebook
 
----
+------------------------------------------------------------------------
 
-# 👩‍🏫 Maintained By
+#  Skills Demonstrated
 
-Priya  
-Mentor – Springboard Internship Program  
+-   Exploratory Data Analysis
+-   Data Cleaning
+-   Feature Engineering
+-   Aviation Operational Analytics
+-   Data Visualization
+-   Git Version Control
 
----
+------------------------------------------------------------------------
+
+#  Author
+
+Robinson\
+Data Analytics Intern\
+AirFly Insights Internship
+
+------------------------------------------------------------------------
+
+#  Acknowledgement
+
+Thanks to the AirFly Insights Internship mentors for their guidance and
+support.
